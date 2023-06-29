@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "advanced-json"
+version = "0.1.0"
+description = ""
+authors = ["asmolkin <asmolkin@ozon.ru>"]
+readme = "README.md"
+packages = [{include = "advanced_json"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
