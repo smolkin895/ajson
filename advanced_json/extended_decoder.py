@@ -1,5 +1,4 @@
 import json
-from collections import namedtuple
 
 
 class ExtendedDecoder(json.JSONDecoder):
@@ -15,7 +14,3 @@ class ExtendedDecoder(json.JSONDecoder):
             return obj
         else:
             return decoder(obj)
-
-
-some_json = namedtuple("cic", ["foo"])
-print(dir(some_json))
