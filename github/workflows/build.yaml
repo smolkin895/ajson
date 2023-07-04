@@ -3,11 +3,9 @@ name: advanced_json CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
-  workflow_dispatch:
-
+    branches: [master]
 
 jobs:
   build:
