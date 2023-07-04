@@ -1,6 +1,5 @@
 from collections import namedtuple
 
-import pytest
 
 from advanced_json.extended_decoder import ExtendedDecoder
 
