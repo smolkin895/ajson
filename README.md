@@ -1,14 +1,18 @@
-> [!NOTE]
-> Information the user should notice even if skimming.
+# extendedjson
 
-> [!TIP]
-> Optional information to help a user be more successful.
+ > Easily extend JSON to encode and decode arbitrary Python objects.
 
-> [!IMPORTANT]
-> Essential information required for user success.
+[![PyPI Version][pypi-image]][pypi-url]
+[![Build Status][build-image]][build-url]
+[![Code Coverage][coverage-image]][coverage-url]
 
-> [!CAUTION]
-> Negative potential consequences of an action.
+...
 
-> [!WARNING]
-> Dangerous certain consequences of an action.
+<!-- Badges: -->
+
+[pypi-image]: https://img.shields.io/pypi/v/extendedjson
+[pypi-url]: https://pypi.org/project/extendedjson/
+[build-image]: https://github.com/mathspp/extendedjson/actions/workflows/build.yaml/badge.svg
+[build-url]: https://github.com/mathspp/extendedjson/actions/workflows/build.yaml
+[coverage-image]: https://codecov.io/gh/mathspp/extendedjson/branch/main/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/mathspp/extendedjson/
